@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PPAP : MonoBehaviour
 {
@@ -29,6 +30,9 @@ public class PPAP : MonoBehaviour
             sr.enabled = false;
             circle.enabled = false;
             collected.SetActive(true);
+
+            GameController.instance.totalScore += score;
+            GameController.instance.UpdateScoreText();
             Destroy(gameObject, 0.2f);
         }
     }
