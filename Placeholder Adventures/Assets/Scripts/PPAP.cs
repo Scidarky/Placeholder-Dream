@@ -7,6 +7,7 @@ public class PPAP : MonoBehaviour
 {
     private SpriteRenderer sr;
     private CircleCollider2D circle;
+    public int score;
 
     public GameObject collected;
     void Start()
@@ -28,7 +29,7 @@ public class PPAP : MonoBehaviour
             sr.enabled = false;
             circle.enabled = false;
             collected.SetActive(true);
-            Destroy(gameObject, 1f);
+            Destroy(gameObject, 0.2f);
         }
     }
 }
