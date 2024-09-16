@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LVL2.unity
     guid: 6f76ac5bfc4a013469b0935b10e471e5
+  - enabled: 1
+    path: Assets/cutscene.unity
+    guid: 64b6c30770ca3654082978d7d8920be8
+  - enabled: 1
+    path: Assets/LVL1.unity
+    guid: aef244ea9a5cb5746ae28f40a08e9a47
   m_configObjects: {}
